@@ -15,7 +15,7 @@
         android:textColor="@color/black"
         android:textAlignment="viewEnd"
         android:layout_marginEnd="12dp"
-        android:textSize="28dp"
+        android:textSize="@dimen/_32ssp"
         app:layout_constraintBottom_toTopOf="@id/result_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -29,7 +29,7 @@
         android:visibility="gone"
         android:textAlignment="viewEnd"
         android:layout_marginEnd="12dp"
-        android:textSize="28dp"
+        android:textSize="@dimen/_32ssp"
         app:layout_constraintBottom_toTopOf="@id/view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -192,7 +192,7 @@
                 android:id="@+id/btn_clearAll"
                 style="@style/operatorbutton"
                 android:onClick="onAllClearClick"
-                android:textSize="20dp"
+                android:textSize="@dimen/_14ssp"
                 android:text="AC" />
 
             <com.google.android.material.button.MaterialButton
